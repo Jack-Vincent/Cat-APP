@@ -34,19 +34,23 @@
 
 <p>Things cats love:</p>
 <ul>
-  <li>cat nip</li>
-  <li>laser pointers</li>
-  <li>lasagna</li>
+  <li>Cat nip</li>
+  <li>Laser pointers</li>
+  <li>Lasagna</li>
 </ul>
 <p>Top 3 things cats hate:</p>
 <ol>
-  <li>flea treatment</li>
-  <li>thunder</li>
-  <li>other cats</li>
+  <li>Flea treatment</li>
+  <li>Thunder</li>
+  <li>Other cats</li>
 </ol>
 <form action="/submit-cat-photo">
-  <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
   <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <label><input type="checkbox" name="personality" checked> Loving</label>
+  <label><input type="checkbox" name="personality"> Energetic</label>
+  <label><input type="checkbox" name="personality"> Social</label>
   <input type="text" placeholder="cat photo URL" required>
   <button type="submit">Submit</button>
+
 </form>
